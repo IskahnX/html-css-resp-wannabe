@@ -1,9 +1,19 @@
 @media  screen and (max-width: 419px) {
-    #lezioni{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+     #lezioni .row{
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         width: 100%;
+         justify-content: center;
+         align-items: center;
+         background-color: rgb(247, 217, 136);
+         padding: 15px 0;
+     }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
         float: none;
     }
-    
+    #lezioni .row .right>img{
+       margin-left: -50px;
+    }   
 }
