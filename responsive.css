@@ -6,7 +6,7 @@
          width: 100%;
          justify-content: center;
          align-items: center;
-         background-color: rgb(225, 243, 161);
+         background-color: #f2f2cd;
          padding: 15px 0;
      }
     #lezioni .row>.left,
@@ -36,3 +36,29 @@
     }
 }
 
+
+@media screen and (max-width:419px){
+    #why .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2f2cd;
+    }
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        float: none;
+        width: 80%;
+        margin-top: 0;
+        
+    }
+
+    #why .row .first>img,
+    #why .row .second>img,
+    #why .row .third>img{
+        transform: scale(0.5);
+    } 
+}
